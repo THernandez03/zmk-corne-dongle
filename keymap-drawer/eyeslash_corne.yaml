@@ -2,19 +2,19 @@ layout: {zmk_keyboard: eyeslash_corne}
 layers:
   QWERTY:
   - $$mdi:keyboard-tab$$
-  - Q
-  - W
-  - E
-  - R
-  - T
+  - {t: '1', h: Q, s: '!'}
+  - {t: '2', h: W, s: '@'}
+  - {t: '3', h: E, s: '#'}
+  - {t: '4', h: R, s: $}
+  - {t: '5', h: T, s: '%'}
   - $$mdi:arrow-up-bold$$
-  - Y
-  - U
-  - I
-  - O
-  - P
+  - {t: '6', h: Y, s: ^}
+  - {t: '7', h: U, s: '&'}
+  - {t: '8', h: I, s: '*'}
+  - {t: '9', h: O, s: (}
+  - {t: '0', h: P, s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - '&td0'
+  - $$mdi:apple-keyboard-shift$$
   - A
   - S
   - D
